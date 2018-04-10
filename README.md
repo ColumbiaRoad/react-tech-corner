@@ -21,7 +21,7 @@ I would recommend using glitch (for simplicity and ease of getting up and runnin
 - Use Git Bash for the next steps (as this allows us to use *NIX-style commands that will work across all operating systems).
 
 ### Linux
-Since there are a millon ways to install anything on linux depending on your distro I'll leave installation steps out of this. If you're using Linux I'll assume you're comfortable with installing git and node. 
+Since there are a million ways to install anything on linux depending on your distro I'll leave installation steps out of this. If you're using Linux I'll assume you're comfortable with installing git and node. 
 
 If you're not sure how to do that, remix this project on glitch and you won't need to worry about running things locally.
 
@@ -63,8 +63,9 @@ The focus of the day is to present quotes from a certain "influential" figure (I
 Don't worry if this seems difficult at first glance! You're not expected to complete all of this, and there will be some React experts on hand to help out if you get stuck.
 
 
-### CHALLENGE TASK
-N.B - This task is intended for people who already have some experience with React and wan to be pushed a little. You're not expected to reach this point if you're looking at React for the first time.
+## CHALLENGE TASK
+
+N.B - This task is intended for people who already have some experience with React and want to be pushed a little. You're not expected to reach this point if you're looking at React for the first time.
 
 [React DnD](https://react-dnd.github.io/react-dnd/) is a handy set of React higher order components that allow you to build drag and drop interfaces. We have included a couple of image assets named `trump-face.png` and `trump-mouth.png` (I hope you can see where we're going with this... 😄).
 
@@ -73,5 +74,5 @@ Your task is to allow the user to drag and drop the jaw around the page. When th
 The following [example](https://react-dnd.github.io/react-dnd/examples-drag-around-naive.html) might be of use to you.
 
 ----
-__psst__ if you want find out how these tasks look when done, you might want to check the branches of this repository.
+_psst_** - if you want find out how these tasks look when done, you might want to check the branches of this repository.
 
