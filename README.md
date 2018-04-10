@@ -74,5 +74,5 @@ Your task is to allow the user to drag and drop the jaw around the page. When th
 The following [example](https://react-dnd.github.io/react-dnd/examples-drag-around-naive.html) might be of use to you.
 
 ----
-_psst_** - if you want find out how these tasks look when done, you might want to check the branches of this repository.
+_psst_ - if you want find out how these tasks look when done, you might want to check the branches of this repository.
 
