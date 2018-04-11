@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   changeSelectedQuote() {
-    const newQuoteIndex = Math.floor(Math.random() * Math.floor(this.state.quotes.length));
+    const newQuoteIndex = Math.floor(Math.random() * this.state.quotes.length);
     this.setState({
       selectedQuoteIndex: newQuoteIndex,
     });
