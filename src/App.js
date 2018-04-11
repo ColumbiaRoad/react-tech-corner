@@ -40,7 +40,7 @@ class App extends Component {
 
   buildAndSendTweet() {
     const tweet = `"${this.state.quotes[this.state.selectedQuoteIndex]}" - @realDonaldTrump`;
-    window.open(`https://twitter.com/intent/tweet?text=${tweet}`, '_blank');
+    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(tweet)}`, '_blank');
   }
 
   render() {
