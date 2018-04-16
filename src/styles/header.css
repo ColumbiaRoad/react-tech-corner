@@ -3,14 +3,17 @@
     height: 240px;
     padding: 20px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: scale-down;
 }
 
 .cr-logo {
-    height: 200px;
+    width: 280px;
 }
 
 .futu-logo {
-    height: 140px;
-    margin-bottom: 35px;
-    margin-left: 20px;
+    width: 340px;
+    margin-left:20px;
 }
