@@ -54,7 +54,7 @@ This will open a browser window and run your React application. Congratulations,
 
 The focus of the day is to present quotes from a certain "influential" figure (I'll leave it to you guys to figure out who 😉). The code handles the API calls, so you can assume that a list (string[]) of quotes is stored in the app state, retrievable as `this.state.quotes`
 
-1. A `Quote` component has been created in `src/components/Quote.jsx`, but it isn't used anywhere. Your job is to import this component in `App.js` and pass a single quote from the `state.quotes` list as a prop (HINT: `this.state.selectedQuote` might help you choose a quote to send).
+1. A `Quote` component has been created in `src/components/Quote.jsx`, but it isn't used anywhere. Your job is to import this component in `App.js` and pass a single quote from the `state.quotes` list as a prop (HINT: `this.state.selectedQuoteIndex` might help you choose a quote to send).
 
 2. This project uses the Semantic UI library, which has some fancy looking buttons. Your next task is to import the `Button` component from `semantic-ui-react` and pass the `changeSelectedQuote()` function as a prop for the `onClick` listener.
 
