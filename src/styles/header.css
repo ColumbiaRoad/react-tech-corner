@@ -3,18 +3,17 @@
     height: 240px;
     padding: 20px;
     color: white;
-    text-align: center;
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: scale-down;
 }
 
 .cr-logo {
-    height: 150px;
+    width: 280px;
 }
 
-/* We can also change our CSS on the fly! */
 .futu-logo {
-    display: inline-block;
-    height: 100px;
-    margin-bottom: 35px;
-    margin-left: 20px;
+    width: 340px;
+    margin-left:20px;
 }
