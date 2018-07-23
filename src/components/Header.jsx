@@ -5,7 +5,7 @@ import futuLogo from '../styles/assets/futurice-logo-basic.png';
 
 const Header = () => (
   <div className="cr-header">
-    <img src={crLogo} alt="CR-Logo" className="cr-logo"/>
+    <img src={crLogo} alt="CR-Logo" className="cr-logo" />
     <img src={futuLogo} alt="Futurice-Logo" className="futu-logo" />
   </div>
 );
